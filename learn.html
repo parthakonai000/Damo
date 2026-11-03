@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Learn Lessons — P. K PRACTICE</title>
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="learn.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('pk_theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div class="app">
+    <!-- ===== TOPBAR ===== -->
+    <header class="topbar">
+      <a href="index.html" class="btn btn-secondary btn-sm">← Home</a>
+
+      <div class="streak" id="streak" data-level="0" role="status">
+        <div class="fire-wrap" aria-hidden="true">
+          <span class="fire" id="streakFire">🔥</span>
+        </div>
+        <div class="streak-text">
+          <span><strong id="streakCount">0</strong> <span id="streakLabel">day streak</span></span>
+          <small id="streakNote">Keep learning!</small>
+        </div>
+      </div>
+
+      <label class="theme-switch" title="Toggle dark mode">
+        <input type="checkbox" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="track">
+          <span class="icon sun" aria-hidden="true">☀️</span>
+          <span class="icon moon" aria-hidden="true">🌙</span>
+          <span class="thumb"></span>
+        </span>
+      </label>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <div class="hero" style="margin-bottom: 18px;">
+      <h1 class="app-title" style="font-size: clamp(1.6rem, 5vw, 2.2rem);">P. K PRACTICE</h1>
+      <p class="tagline" id="pageSubTitle">Structured Lessons • <span lang="bn">ধাপে ধাপে শিখুন</span></p>
+    </div>
+
+    <main id="learnApp">
+      <div class="status" id="status"></div>
+
+      <!-- ===== PANEL 1: LESSON LIST ===== -->
+      <section class="panel active" id="lessonListPanel">
+        <div class="overall-progress card-lg">
+          <div class="op-head">
+            <div>
+              <h2 class="op-title">Your Learning Path</h2>
+              <p class="muted" id="overallMeta" lang="bn">লেসনগুলো একে একে সম্পন্ন করুন</p>
+            </div>
+            <span class="score-pill" id="overallPct">0%</span>
+          </div>
+          <div class="progress" style="margin-top: 12px;">
+            <div class="progress-bar" id="overallBar"></div>
+          </div>
+        </div>
+
+        <div class="lesson-grid" id="lessonGrid"></div>
+      </section>
+
+      <!-- ===== PANEL 2: STUDY MODE WITH STATIC IMAGE ===== -->
+      <section class="panel" id="studyPanel">
+        <div class="study-wrap card-lg">
+          <div class="quiz-head">
+            <span id="studyCounter">Lesson 1 • Card 1 of 10</span>
+            <button class="btn btn-ghost btn-sm" id="backToLessonsBtn">✕ Lessons</button>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" id="studyBar"></div>
+          </div>
+
+          <!-- গোল ফ্রেমে আপনার স্থির ছবি (my_image.jpg) -->
+          <div class="avatar-stage">
+            <div class="avatar-box" id="avatarBox">
+              <img src="my_image.jpg" alt="Profile" id="avatarImg" class="avatar-img">
+              <span class="avatar-status-dot"></span>
+            </div>
+            <div class="speech-bubble">
+              <div class="bubble-top">
+                <span class="bubble-tag">LISTEN &amp; LEARN</span>
+                <div class="bubble-audio-btns">
+                  <button class="btn-audio" id="speakVerbBtn" title="শব্দটি শুনুন">🔊 Verb</button>
+                  <button class="btn-audio" id="speakAllBtn" title="উদাহরণসহ শুনুন">🗣️ Full</button>
+                </div>
+              </div>
+              <h2 class="study-verb" id="studyVerb">make up for</h2>
+              <p class="study-bn" id="studyBn" lang="bn">ক্ষতিপূরণ করা</p>
+            </div>
+          </div>
+
+          <!-- Verb Details Card -->
+          <div class="study-details">
+            <div class="detail-row">
+              <span class="detail-label">English Meaning (Synonym)</span>
+              <span class="chip" id="studyEn">compensate</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Example Sentence</span>
+              <p class="verb-example" id="studyEx"></p>
+            </div>
+          </div>
+
+          <div class="study-actions">
+            <button class="btn btn-secondary" id="prevCardBtn">← Previous</button>
+            <button class="btn btn-primary" id="nextCardBtn">Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PANEL 3: MINI CHECKPOINT QUIZ ===== -->
+      <section class="panel" id="checkpointPanel">
+        <div class="study-wrap card-lg">
+          <div class="quiz-head">
+            <span id="cpCounter">Checkpoint • 1 of 10</span>
+            <span class="score-pill" id="cpScore">Score: 0</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" id="cpBar"></div>
+          </div>
+
+          <div class="cp-avatar-bar">
+            <img src="my_image.jpg" alt="Profile" id="cpAvatarImg" class="cp-avatar">
+            <div class="cp-prompt">
+              <small class="muted">Pass with 80% to complete this lesson!</small>
+              <p class="q-bn" id="cpBengali" lang="bn" style="margin: 4px 0 0; font-size: 1.4rem; text-align: left;"></p>
+            </div>
+          </div>
+
+          <div class="options" id="cpOptions"></div>
+          <div class="feedback" id="cpFeedback" hidden></div>
+
+          <div class="quiz-actions">
+            <button class="btn btn-ghost" id="cpQuitBtn">← Back to Study</button>
+            <button class="btn btn-primary" id="cpNextBtn" hidden>Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PANEL 4: LESSON RESULT ===== -->
+      <section class="panel" id="lessonResultPanel"></section>
+    </main>
+
+    <footer class="footer">© <span id="year"></span> P. K PRACTICE</footer>
+  </div>
+
+  <script src="learn.js"></script>
+</body>
+</html>

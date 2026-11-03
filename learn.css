@@ -1,0 +1,338 @@
+/* ==========================================================
+   P. K PRACTICE — Learn Page & Avatar Styles (learn.css)
+   ========================================================== */
+
+.btn-sm {
+  padding: 8px 14px;
+  font-size: 0.88rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.study-wrap {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ---------- Overall Progress ---------- */
+.overall-progress {
+  margin-bottom: 18px;
+}
+
+.op-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.op-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+/* ---------- Lesson Grid ---------- */
+.lesson-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 640px) {
+  .lesson-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.lesson-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 16px 18px;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  text-align: left;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lesson-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--violet-400);
+  box-shadow: var(--shadow-md);
+}
+
+.lesson-card.current {
+  border-color: var(--accent);
+  background: linear-gradient(135deg, var(--surface) 60%, var(--accent-soft));
+}
+
+.lesson-card.completed {
+  border-color: rgba(16, 185, 129, 0.45);
+}
+
+.lesson-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.lesson-num {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--accent);
+  background: var(--accent-soft);
+  flex-shrink: 0;
+}
+
+.lesson-card.completed .lesson-num {
+  background: rgba(16, 185, 129, 0.16);
+  color: #10b981;
+}
+
+.lesson-info h3 {
+  font-size: 1.08rem;
+  font-weight: 800;
+}
+
+.lesson-info p {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.lesson-badge {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.lesson-badge.done {
+  background: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+}
+
+.lesson-badge.now {
+  background: var(--accent);
+  color: #fff;
+}
+
+.lesson-badge.open {
+  background: var(--surface-2);
+  color: var(--text-muted);
+}
+
+/* ---------- Duolingo-Style Avatar Stage ---------- */
+.avatar-stage {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 22px 0 18px;
+  padding: 16px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+}
+
+.avatar-box {
+  position: relative;
+  flex: 0 0 96px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--violet-500), var(--red-500));
+  padding: 3px;
+  box-shadow: 0 8px 20px rgba(109, 40, 217, 0.28);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  background: var(--surface);
+  display: block;
+}
+
+/* কথা বলার সময় অবতারের গ্লো এবং বাউন্স অ্যানিমেশন */
+.avatar-box.speaking {
+  animation: avatarBounce 0.45s ease-in-out infinite alternate;
+  box-shadow: 0 0 0 6px var(--accent-soft), 0 10px 25px rgba(139, 92, 246, 0.5);
+}
+
+@keyframes avatarBounce {
+  from { transform: scale(1) translateY(0); }
+  to   { transform: scale(1.05) translateY(-3px); }
+}
+
+.avatar-status-dot {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #10b981;
+  border: 2px solid var(--surface);
+}
+
+/* ---------- Speech Bubble ---------- */
+.speech-bubble {
+  position: relative;
+  flex: 1;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  padding: 14px 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.speech-bubble::before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 32px;
+  width: 14px;
+  height: 14px;
+  background: var(--surface);
+  border-left: 2px solid var(--border);
+  border-bottom: 2px solid var(--border);
+  transform: rotate(45deg);
+}
+
+.bubble-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.bubble-tag {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.bubble-audio-btns {
+  display: flex;
+  gap: 6px;
+}
+
+.btn-audio {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.2s;
+}
+
+.btn-audio:hover {
+  transform: scale(1.06);
+}
+
+.btn-audio:active {
+  transform: scale(0.95);
+}
+
+.study-verb {
+  font-size: clamp(1.4rem, 5vw, 1.85rem);
+  font-weight: 800;
+  color: var(--accent);
+  margin-top: 6px;
+}
+
+.study-bn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+/* ---------- Study Details ---------- */
+.study-details {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.detail-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.detail-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.study-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.study-actions .btn {
+  flex: 1;
+}
+
+/* ---------- Checkpoint Avatar Bar ---------- */
+.cp-avatar-bar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 18px 0;
+  padding: 12px 14px;
+  background: var(--surface-2);
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+
+.cp-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .avatar-stage {
+    flex-direction: column;
+    text-align: center;
+  }
+  .speech-bubble {
+    width: 100%;
+  }
+  .speech-bubble::before {
+    display: none;
+  }
+  .bubble-top {
+    justify-content: center;
+  }
+}

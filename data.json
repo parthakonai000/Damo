@@ -1,0 +1,740 @@
+[
+  {
+    "verb": "act for",
+    "bengaliMeaning": "কারও পক্ষে কাজ করা",
+    "englishMeaning": "work on behalf of",
+    "example": "In the meeting the P.A. of the minister acted for him."
+  },
+  {
+    "verb": "act on",
+    "bengaliMeaning": "কারও নির্দেশে কাজ করা",
+    "englishMeaning": "do something following someone's advice",
+    "example": "I am acting on the advice of my lawyer."
+  },
+  {
+    "verb": "act upon",
+    "bengaliMeaning": "প্রভাব ফেলা / প্রতিক্রিয়া করা",
+    "englishMeaning": "have an effect on",
+    "example": "Smoking acts on our health."
+  },
+  {
+    "verb": "act over",
+    "bengaliMeaning": "প্রভাব ফেলা / প্রতিক্রিয়া করা",
+    "englishMeaning": "affect",
+    "example": "Smoking acts over our health."
+  },
+  {
+    "verb": "bear away",
+    "bengaliMeaning": "জয়লাভ করা",
+    "englishMeaning": "win",
+    "example": "We bore away the cricket match."
+  },
+  {
+    "verb": "bear off",
+    "bengaliMeaning": "জয়লাভ করা",
+    "englishMeaning": "win",
+    "example": "We bore off the cricket match."
+  },
+  {
+    "verb": "bear with",
+    "bengaliMeaning": "সহ্য করা",
+    "englishMeaning": "tolerate; endure",
+    "example": "I cannot bear with rude behaviour."
+  },
+  {
+    "verb": "blow out",
+    "bengaliMeaning": "নেভানো",
+    "englishMeaning": "extinguish",
+    "example": "I blew out the lamp."
+  },
+  {
+    "verb": "blow off",
+    "bengaliMeaning": "নির্গত করা",
+    "englishMeaning": "emit",
+    "example": "The engine blows off CO2."
+  },
+  {
+    "verb": "blow up",
+    "bengaliMeaning": "বিস্ফোরণের সাহায্যে উড়িয়ে দেওয়া",
+    "englishMeaning": "explode",
+    "example": "The soldiers blew up the bridge."
+  },
+  {
+    "verb": "break into",
+    "bengaliMeaning": "জোর করে প্রবেশ করা",
+    "englishMeaning": "enter by force",
+    "example": "The dacoits broke into the house at night."
+  },
+  {
+    "verb": "break away",
+    "bengaliMeaning": "পালিয়ে যাওয়া",
+    "englishMeaning": "escape",
+    "example": "The dog broke away from the owner."
+  },
+  {
+    "verb": "break out",
+    "bengaliMeaning": "পালিয়ে যাওয়া",
+    "englishMeaning": "free oneself; escape",
+    "example": "The thief broke out from the jail."
+  },
+  {
+    "verb": "break down",
+    "bengaliMeaning": "ভেঙে পড়া",
+    "englishMeaning": "collapse; fail",
+    "example": "His health broke down through overwork."
+  },
+  {
+    "verb": "break off",
+    "bengaliMeaning": "হঠাৎ থেমে যাওয়া",
+    "englishMeaning": "stop suddenly",
+    "example": "He broke off in the middle of the story."
+  },
+  {
+    "verb": "break out",
+    "bengaliMeaning": "হঠাৎ শুরু হওয়া / ছড়িয়ে পড়া",
+    "englishMeaning": "start suddenly; spread",
+    "example": "A plague broke out in the country."
+  },
+  {
+    "verb": "break up",
+    "bengaliMeaning": "শেষ করা / বন্ধ করা",
+    "englishMeaning": "finish or end; close",
+    "example": "The meeting broke up at 5 p.m."
+  },
+  {
+    "verb": "bring forth",
+    "bengaliMeaning": "উৎপাদন করা",
+    "englishMeaning": "produce",
+    "example": "This tree brings forth sweet fruits."
+  },
+  {
+    "verb": "bring up",
+    "bengaliMeaning": "লালনপালন করা",
+    "englishMeaning": "rear",
+    "example": "She was brought up by her aunt."
+  },
+  {
+    "verb": "bring out",
+    "bengaliMeaning": "বই প্রকাশ করা / প্রকাশ করা",
+    "englishMeaning": "publish",
+    "example": "Oxford brought out a new dictionary."
+  },
+  {
+    "verb": "bring about",
+    "bengaliMeaning": "ঘটানো",
+    "englishMeaning": "cause",
+    "example": "Excessive pride brought about his ruin."
+  },
+  {
+    "verb": "bring down",
+    "bengaliMeaning": "কমানো",
+    "englishMeaning": "reduce",
+    "example": "The government wants to bring down the price of fuel."
+  },
+  {
+    "verb": "burst into",
+    "bengaliMeaning": "হঠাৎ আবেগ প্রকাশ করা",
+    "englishMeaning": "suddenly express an emotion",
+    "example": "She burst into tears to see her dead son."
+  },
+  {
+    "verb": "burst out",
+    "bengaliMeaning": "হঠাৎ আনন্দে আবেগ প্রকাশ করা",
+    "englishMeaning": "suddenly express joy or emotion",
+    "example": "He burst out laughing."
+  },
+  {
+    "verb": "call at",
+    "bengaliMeaning": "কোনো জায়গায় যাওয়া / দেখা করা",
+    "englishMeaning": "visit a place",
+    "example": "You may call at my office."
+  },
+  {
+    "verb": "call on",
+    "bengaliMeaning": "দেখা করা",
+    "englishMeaning": "visit",
+    "example": "I will call on our neighbour tomorrow."
+  },
+  {
+    "verb": "call in",
+    "bengaliMeaning": "ডেকে আনা",
+    "englishMeaning": "summon",
+    "example": "They called in a doctor."
+  },
+  {
+    "verb": "call for",
+    "bengaliMeaning": "দরকার হওয়া / দাবি করা",
+    "englishMeaning": "require; demand",
+    "example": "The situation calls for quick action."
+  },
+  {
+    "verb": "call off",
+    "bengaliMeaning": "বাতিল করা",
+    "englishMeaning": "cancel",
+    "example": "The strike has been called off."
+  },
+  {
+    "verb": "call over",
+    "bengaliMeaning": "পড়ে শোনানো / নাম ডাকা",
+    "englishMeaning": "read out (names)",
+    "example": "The teacher is calling over the names of the students."
+  },
+  {
+    "verb": "call up",
+    "bengaliMeaning": "স্মরণ করা",
+    "englishMeaning": "remember; recollect",
+    "example": "I become happy when I call up the events of my childhood."
+  },
+  {
+    "verb": "call out",
+    "bengaliMeaning": "চিৎকার করা",
+    "englishMeaning": "shout",
+    "example": "He called out to his friend across the street."
+  },
+  {
+    "verb": "carry on",
+    "bengaliMeaning": "চালিয়ে যাওয়া",
+    "englishMeaning": "continue",
+    "example": "You should carry on your study."
+  },
+  {
+    "verb": "carry off",
+    "bengaliMeaning": "জয়লাভ করা",
+    "englishMeaning": "win",
+    "example": "He carried off the first prize."
+  },
+  {
+    "verb": "carry out",
+    "bengaliMeaning": "কাজ সম্পন্ন করা / মেনে চলা",
+    "englishMeaning": "execute; obey",
+    "example": "They carry out my order."
+  },
+  {
+    "verb": "come about",
+    "bengaliMeaning": "ঘটা",
+    "englishMeaning": "happen",
+    "example": "How did the accident come about?"
+  },
+  {
+    "verb": "come round",
+    "bengaliMeaning": "আরোগ্য লাভ করা",
+    "englishMeaning": "recover",
+    "example": "The patient has come round."
+  },
+  {
+    "verb": "come across",
+    "bengaliMeaning": "হঠাৎ দেখা হওয়া",
+    "englishMeaning": "meet suddenly",
+    "example": "He came across some old friends."
+  },
+  {
+    "verb": "come of",
+    "bengaliMeaning": "জন্মগ্রহণ করা",
+    "englishMeaning": "be born",
+    "example": "Rabindranath came of a very educated family."
+  },
+  {
+    "verb": "come along",
+    "bengaliMeaning": "সঙ্গে যাওয়া",
+    "englishMeaning": "accompany",
+    "example": "I requested him to come along."
+  },
+  {
+    "verb": "come by",
+    "bengaliMeaning": "পাওয়া",
+    "englishMeaning": "get",
+    "example": "He came by the book in the library."
+  },
+  {
+    "verb": "come off",
+    "bengaliMeaning": "অনুষ্ঠিত হওয়া",
+    "englishMeaning": "take place",
+    "example": "The programme came off successfully."
+  },
+  {
+    "verb": "cry down",
+    "bengaliMeaning": "নিন্দা করা",
+    "englishMeaning": "decry; depreciate",
+    "example": "Don't cry down your enemy."
+  },
+  {
+    "verb": "cry for",
+    "bengaliMeaning": "দাবি করা",
+    "englishMeaning": "demand",
+    "example": "He cried for his right."
+  },
+  {
+    "verb": "cry out",
+    "bengaliMeaning": "চিৎকার করা / প্রতিবাদ করা",
+    "englishMeaning": "shout; protest",
+    "example": "She cried out for help."
+  },
+  {
+    "verb": "cry up",
+    "bengaliMeaning": "প্রশংসা করা",
+    "englishMeaning": "praise; extol",
+    "example": "The critics cried up the new film."
+  },
+  {
+    "verb": "do away with",
+    "bengaliMeaning": "লোপ করা / উচ্ছেদ করা",
+    "englishMeaning": "abolish",
+    "example": "Rammohan did away with Satidaha."
+  },
+  {
+    "verb": "do up",
+    "bengaliMeaning": "সাজানো / সাজিয়ে গুছিয়ে রাখা",
+    "englishMeaning": "decorate; renovate",
+    "example": "I do up my bedroom."
+  },
+  {
+    "verb": "do into",
+    "bengaliMeaning": "অনুবাদ করা",
+    "englishMeaning": "translate",
+    "example": "She did the story into Bengali."
+  },
+  {
+    "verb": "get over",
+    "bengaliMeaning": "আরোগ্য লাভ করা",
+    "englishMeaning": "recover",
+    "example": "Ramen is getting over a disease."
+  },
+  {
+    "verb": "get up",
+    "bengaliMeaning": "ওঠা",
+    "englishMeaning": "wake",
+    "example": "I get up early in the morning."
+  },
+  {
+    "verb": "get away with",
+    "bengaliMeaning": "পালানো",
+    "englishMeaning": "escape",
+    "example": "The thief got away with gold."
+  },
+  {
+    "verb": "give away",
+    "bengaliMeaning": "বিতরণ করা",
+    "englishMeaning": "distribute",
+    "example": "The prizes were given away by the president."
+  },
+  {
+    "verb": "give up",
+    "bengaliMeaning": "ত্যাগ করা",
+    "englishMeaning": "abandon; leave",
+    "example": "You should try to give up smoking."
+  },
+  {
+    "verb": "give in",
+    "bengaliMeaning": "হার স্বীকার করা",
+    "englishMeaning": "surrender; yield",
+    "example": "You should never give in."
+  },
+  {
+    "verb": "give out",
+    "bengaliMeaning": "প্রকাশ করা",
+    "englishMeaning": "publish; announce",
+    "example": "The authorities gave out the exam results yesterday."
+  },
+  {
+    "verb": "give off",
+    "bengaliMeaning": "নির্গত করা",
+    "englishMeaning": "emit",
+    "example": "The flowers give off a sweet smell."
+  },
+  {
+    "verb": "fall out",
+    "bengaliMeaning": "ঝগড়া করা",
+    "englishMeaning": "quarrel",
+    "example": "Don't fall out with your friends."
+  },
+  {
+    "verb": "fall in with",
+    "bengaliMeaning": "একমত হওয়া",
+    "englishMeaning": "agree with",
+    "example": "I cannot fall in with you."
+  },
+  {
+    "verb": "fall on",
+    "bengaliMeaning": "আক্রমণ করা",
+    "englishMeaning": "attack",
+    "example": "The soldiers fell on the enemy camp at dawn."
+  },
+  {
+    "verb": "fall through",
+    "bengaliMeaning": "ব্যর্থ হওয়া",
+    "englishMeaning": "fail",
+    "example": "Our plan fell through due to lack of money."
+  },
+  {
+    "verb": "go on",
+    "bengaliMeaning": "চালিয়ে যাওয়া",
+    "englishMeaning": "continue",
+    "example": "The dog went on barking at night."
+  },
+  {
+    "verb": "go through",
+    "bengaliMeaning": "খুঁটিয়ে পড়া / ভালোভাবে পড়া",
+    "englishMeaning": "read carefully",
+    "example": "Go through the text."
+  },
+  {
+    "verb": "go for",
+    "bengaliMeaning": "আক্রমণ করা",
+    "englishMeaning": "attack",
+    "example": "The dog went for the stranger."
+  },
+  {
+    "verb": "go up",
+    "bengaliMeaning": "বৃদ্ধি পাওয়া",
+    "englishMeaning": "increase",
+    "example": "The price of vegetables has gone up."
+  },
+  {
+    "verb": "go down",
+    "bengaliMeaning": "হ্রাস পাওয়া",
+    "englishMeaning": "decrease",
+    "example": "The temperature went down at night."
+  },
+  {
+    "verb": "look after",
+    "bengaliMeaning": "দেখাশোনা করা",
+    "englishMeaning": "take care of",
+    "example": "He looks after his parents well."
+  },
+  {
+    "verb": "look down upon",
+    "bengaliMeaning": "ঘৃণা করা",
+    "englishMeaning": "hate; despise",
+    "example": "Don't look down upon your enemy."
+  },
+  {
+    "verb": "look into",
+    "bengaliMeaning": "তদন্ত করা",
+    "englishMeaning": "investigate",
+    "example": "The C.B.I. is looking into the case."
+  },
+  {
+    "verb": "look for",
+    "bengaliMeaning": "খোঁজা",
+    "englishMeaning": "search",
+    "example": "Will you please look for my keys?"
+  },
+  {
+    "verb": "look forward to",
+    "bengaliMeaning": "আগ্রহে প্রতীক্ষা করা",
+    "englishMeaning": "await eagerly",
+    "example": "I am looking forward to meeting you."
+  },
+  {
+    "verb": "look over",
+    "bengaliMeaning": "পরীক্ষা করা",
+    "englishMeaning": "examine",
+    "example": "The teacher looked over the answer scripts."
+  },
+  {
+    "verb": "look upon",
+    "bengaliMeaning": "গণ্য করা",
+    "englishMeaning": "consider",
+    "example": "They look upon him as their leader."
+  },
+  {
+    "verb": "make up",
+    "bengaliMeaning": "ক্ষতিপূরণ করা",
+    "englishMeaning": "compensate",
+    "example": "He will make up the loss."
+  },
+  {
+    "verb": "make out",
+    "bengaliMeaning": "বুঝতে পারা",
+    "englishMeaning": "understand",
+    "example": "I could not make out the meaning of the poem."
+  },
+  {
+    "verb": "make over",
+    "bengaliMeaning": "হস্তান্তর করা",
+    "englishMeaning": "transfer",
+    "example": "He made over his property to his son."
+  },
+  {
+    "verb": "pass away",
+    "bengaliMeaning": "মারা যাওয়া",
+    "englishMeaning": "die",
+    "example": "The patient passed away."
+  },
+  {
+    "verb": "put on",
+    "bengaliMeaning": "পরিধান করা",
+    "englishMeaning": "wear",
+    "example": "Everyone puts on new clothes."
+  },
+  {
+    "verb": "put out",
+    "bengaliMeaning": "নেভানো",
+    "englishMeaning": "extinguish",
+    "example": "Put out the lamp."
+  },
+  {
+    "verb": "put up",
+    "bengaliMeaning": "বাস করা / কিছুক্ষণের জন্য থাকা",
+    "englishMeaning": "stay",
+    "example": "Yesterday I put up in a hotel."
+  },
+  {
+    "verb": "put up",
+    "bengaliMeaning": "টাঙানো",
+    "englishMeaning": "fix; hang",
+    "example": "Put up a tent here."
+  },
+  {
+    "verb": "put up with",
+    "bengaliMeaning": "সহ্য করা",
+    "englishMeaning": "tolerate",
+    "example": "I cannot put up with such insult."
+  },
+  {
+    "verb": "put off",
+    "bengaliMeaning": "স্থগিত রাখা",
+    "englishMeaning": "postpone",
+    "example": "They have put off the meeting."
+  },
+  {
+    "verb": "put off",
+    "bengaliMeaning": "খুলে ফেলা",
+    "englishMeaning": "remove; take off",
+    "example": "He put off his coat as it was hot."
+  },
+  {
+    "verb": "put down",
+    "bengaliMeaning": "লেখা",
+    "englishMeaning": "write",
+    "example": "Put down your name in the form."
+  },
+  {
+    "verb": "put by",
+    "bengaliMeaning": "জমানো / সঞ্চয় করা",
+    "englishMeaning": "save",
+    "example": "You should put by some money for the future."
+  },
+  {
+    "verb": "put into",
+    "bengaliMeaning": "বাধ্য করা",
+    "englishMeaning": "compel",
+    "example": "Poverty put him into taking a small job."
+  },
+  {
+    "verb": "run after",
+    "bengaliMeaning": "পিছু নেওয়া",
+    "englishMeaning": "chase",
+    "example": "The villagers ran after the thief."
+  },
+  {
+    "verb": "run away",
+    "bengaliMeaning": "পালিয়ে যাওয়া",
+    "englishMeaning": "flee",
+    "example": "The bird ran away from the cage."
+  },
+  {
+    "verb": "run away with",
+    "bengaliMeaning": "চুরি করে পালিয়ে যাওয়া",
+    "englishMeaning": "steal and flee",
+    "example": "The thief ran away with all the gold."
+  },
+  {
+    "verb": "run out",
+    "bengaliMeaning": "শেষ হয়ে যাওয়া",
+    "englishMeaning": "drain; be used up",
+    "example": "His patience is running out."
+  },
+  {
+    "verb": "set out",
+    "bengaliMeaning": "যাত্রা শুরু করা",
+    "englishMeaning": "start a journey",
+    "example": "He set out for London."
+  },
+  {
+    "verb": "set up",
+    "bengaliMeaning": "প্রতিষ্ঠা করা",
+    "englishMeaning": "establish",
+    "example": "This school was set up in 1969."
+  },
+  {
+    "verb": "set by",
+    "bengaliMeaning": "সঞ্চয় করা",
+    "englishMeaning": "save",
+    "example": "You should set by something for the future."
+  },
+  {
+    "verb": "set in",
+    "bengaliMeaning": "শুরু হওয়া",
+    "englishMeaning": "begin",
+    "example": "The rains have set in."
+  },
+  {
+    "verb": "set on",
+    "bengaliMeaning": "অনুসরণ করা",
+    "englishMeaning": "pursue",
+    "example": "He set on his goal with full determination."
+  },
+  {
+    "verb": "set about",
+    "bengaliMeaning": "কাজ শুরু করা",
+    "englishMeaning": "start a work",
+    "example": "She set about cleaning the house."
+  },
+  {
+    "verb": "stand by",
+    "bengaliMeaning": "সমর্থন করা / পাশে দাঁড়ানো",
+    "englishMeaning": "support",
+    "example": "Always stand by your friends."
+  },
+  {
+    "verb": "stand for",
+    "bengaliMeaning": "প্রতীক হওয়া",
+    "englishMeaning": "symbolise; represent",
+    "example": "White stands for peace."
+  },
+  {
+    "verb": "stand against",
+    "bengaliMeaning": "বিরুদ্ধে দাঁড়ানো",
+    "englishMeaning": "oppose",
+    "example": "They stood against their enemy."
+  },
+  {
+    "verb": "turn down",
+    "bengaliMeaning": "প্রত্যাখ্যান করা",
+    "englishMeaning": "refuse; reject",
+    "example": "They turned down my offer."
+  },
+  {
+    "verb": "turn up",
+    "bengaliMeaning": "উপস্থিত হওয়া",
+    "englishMeaning": "arrive; appear",
+    "example": "You should turn up in time."
+  },
+  {
+    "verb": "turn off",
+    "bengaliMeaning": "বন্ধ করা",
+    "englishMeaning": "switch off; stop",
+    "example": "Please turn off the light before you leave."
+  },
+  {
+    "verb": "turn on",
+    "bengaliMeaning": "চালু করা",
+    "englishMeaning": "switch on; open",
+    "example": "Turn on the fan, it is very hot."
+  },
+  {
+    "verb": "turn out",
+    "bengaliMeaning": "তাড়িয়ে দেওয়া",
+    "englishMeaning": "expel",
+    "example": "The landlord turned out the tenant."
+  },
+  {
+    "verb": "take after",
+    "bengaliMeaning": "দেখতে একই রকম হওয়া",
+    "englishMeaning": "resemble",
+    "example": "Most children take after their parents."
+  },
+  {
+    "verb": "take down",
+    "bengaliMeaning": "লেখা",
+    "englishMeaning": "write",
+    "example": "The students took down the notes."
+  },
+  {
+    "verb": "take to",
+    "bengaliMeaning": "আসক্ত হওয়া",
+    "englishMeaning": "get addicted",
+    "example": "He took to smoking."
+  },
+  {
+    "verb": "take off",
+    "bengaliMeaning": "খুলে ফেলা",
+    "englishMeaning": "remove; put off",
+    "example": "Take off your coat."
+  },
+  {
+    "verb": "take off",
+    "bengaliMeaning": "উড়ে যাওয়া / মাটি ত্যাগ করা",
+    "englishMeaning": "fly; leave the ground",
+    "example": "The plane took off at 9 pm."
+  },
+  {
+    "verb": "take in",
+    "bengaliMeaning": "বুঝতে পারা",
+    "englishMeaning": "understand",
+    "example": "I could not take in the meaning of the poem."
+  },
+  {
+    "verb": "take up",
+    "bengaliMeaning": "শুরু করা",
+    "englishMeaning": "start (a hobby)",
+    "example": "You should take up the habit of newspaper reading."
+  },
+  {
+    "verb": "take over",
+    "bengaliMeaning": "দায়িত্ব গ্রহণ করা",
+    "englishMeaning": "take charge",
+    "example": "He took over the charge of the office."
+  },
+  {
+    "verb": "take for",
+    "bengaliMeaning": "একজনকে অন্যজন বলে মনে করা",
+    "englishMeaning": "mistake someone for another",
+    "example": "I took her for my sister."
+  },
+  {
+    "verb": "take aback",
+    "bengaliMeaning": "অবাক হওয়া",
+    "englishMeaning": "feel surprised",
+    "example": "The sudden news took me aback."
+  },
+  {
+    "verb": "deal in",
+    "bengaliMeaning": "ব্যবসা করা",
+    "englishMeaning": "trade",
+    "example": "He deals in rice."
+  },
+  {
+    "verb": "deal with",
+    "bengaliMeaning": "ব্যবহার করা / আচরণ করা",
+    "englishMeaning": "behave; treat",
+    "example": "He deals with me well."
+  },
+  {
+    "verb": "work out",
+    "bengaliMeaning": "সমাধান করা",
+    "englishMeaning": "solve",
+    "example": "She worked out the problem in five minutes."
+  },
+  {
+    "verb": "talk over",
+    "bengaliMeaning": "আলোচনা করা",
+    "englishMeaning": "discuss",
+    "example": "Let us talk over the matter calmly."
+  },
+  {
+    "verb": "tell upon",
+    "bengaliMeaning": "ক্ষতিকর প্রভাব ফেলা",
+    "englishMeaning": "affect (badly)",
+    "example": "Overwork tells upon his health."
+  },
+  {
+    "verb": "pull down",
+    "bengaliMeaning": "ভেঙে গুঁড়িয়ে দেওয়া",
+    "englishMeaning": "demolish",
+    "example": "They pulled down the old building."
+  },
+  {
+    "verb": "lay by",
+    "bengaliMeaning": "সঞ্চয় করা",
+    "englishMeaning": "save",
+    "example": "He lays by a part of his income every month."
+  },
+  {
+    "verb": "lay out",
+    "bengaliMeaning": "পরিকল্পনা করা",
+    "englishMeaning": "make a plan",
+    "example": "The engineer laid out the plan of the new park."
+  }
+]

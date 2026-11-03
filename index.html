@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>P.K PRACTICE — Phrasal Verb Learning & Practice</title>
+  <meta name="description" content="Learn and practice English phrasal verbs with Bengali meanings.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('pk_theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div class="app">
+    <!-- ===== TOP: Streak + Theme toggle ===== -->
+    <header class="topbar">
+      <div class="streak" id="streak" data-level="0" role="status" aria-live="polite">
+        <div class="fire-wrap" aria-hidden="true">
+          <span class="fire" id="streakFire">🔥</span>
+        </div>
+        <div class="streak-text">
+          <span><strong id="streakCount">0</strong> <span id="streakLabel">day streak</span></span>
+          <small id="streakNote">Practice today to start!</small>
+        </div>
+      </div>
+
+      <label class="theme-switch" title="Toggle dark mode">
+        <input type="checkbox" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="track">
+          <span class="icon sun" aria-hidden="true">☀️</span>
+          <span class="icon moon" aria-hidden="true">🌙</span>
+          <span class="thumb"></span>
+        </span>
+      </label>
+    </header>
+
+    <!-- ===== Title ===== -->
+    <div class="hero">
+      <h1 class="app-title">P. K PRACTICE</h1>
+      <p class="tagline">Phrasal Verb Learning &amp; Practice • <span lang="bn">ফ্রেজাল ভার্ব অনুশীলন</span></p>
+    </div>
+
+    <!-- ===== 3 Tabs (List, Learn, Practice) ===== -->
+    <nav class="tabs" id="tabs" data-active="list" role="tablist" aria-label="Main sections">
+      <span class="tab-indicator" aria-hidden="true"></span>
+      <button class="tab active" id="tab-list" role="tab" aria-selected="true" aria-controls="listView" data-tab="list">📋 List</button>
+      <button class="tab" id="tab-learn" role="tab" aria-selected="false" aria-controls="learnView" data-tab="learn">📚 Learn</button>
+      <button class="tab" id="tab-practice" role="tab" aria-selected="false" aria-controls="practiceView" data-tab="practice">🎯 Practice</button>
+    </nav>
+
+    <main>
+      <!-- ===== 1. LIST VIEW (আগের Learn সেকশনটি এখন List) ===== -->
+      <section class="view active" id="listView" role="tabpanel" aria-labelledby="tab-list">
+        <div class="learn-controls">
+          <div class="search">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input type="search" id="searchInput" placeholder="Search English or বাংলা..." autocomplete="off" aria-label="Search phrasal verbs">
+          </div>
+          <select id="sortSelect" class="sort-select" aria-label="Sort phrasal verbs">
+            <option value="default">↕️ Default</option>
+            <option value="az">🔤 A to Z</option>
+            <option value="za">🔤 Z to A</option>
+          </select>
+        </div>
+        <p class="search-meta" id="searchMeta" aria-live="polite"></p>
+        <div class="card-grid" id="verbGrid"></div>
+        <div class="status" id="status"></div>
+      </section>
+
+      <!-- ===== 2. LEARN INTRO VIEW (নতুন Learn অপশন) ===== -->
+      <section class="view" id="learnView" role="tabpanel" aria-labelledby="tab-learn">
+        <div class="panel card-lg active" id="learnIntro" style="text-align: center; max-width: 640px; margin: 0 auto;">
+          <div class="intro-emoji" aria-hidden="true">📚</div>
+          <h2 style="font-size: 1.5rem; font-weight: 800; margin-bottom: 8px;">Interactive Learning Mode</h2>
+          <p class="muted" lang="bn">ধাপে ধাপে ফ্ল্যাশকার্ড, উচ্চারণ এবং উদাহরণের মাধ্যমে খুব সহজেই প্রতিটি গ্রুপ ভার্ব বা ফ্রেজাল ভার্ব মুখস্থ করে নিন।</p>
+          <button class="btn btn-primary btn-block" id="startLearnBtn" style="margin-top: 20px;">Start Now →</button>
+        </div>
+      </section>
+
+      <!-- ===== 3. PRACTICE INTRO VIEW ===== -->
+      <section class="view" id="practiceView" role="tabpanel" aria-labelledby="tab-practice">
+        <div class="panel card-lg active" id="quizIntro">
+          <div class="intro-emoji" aria-hidden="true">🎯</div>
+          <h2>Ready to practice?</h2>
+          <p class="muted">10 questions. You'll see a Bengali meaning — pick the matching English phrasal verb.</p>
+          <button class="btn btn-primary btn-block" id="startBtn" disabled>Start Practice →</button>
+          <p class="hint" id="introHint"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">© <span id="year"></span> P. K PRACTICE</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

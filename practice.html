@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Practice Quiz — P. K PRACTICE</title>
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* প্র্যাকটিস পেজের অডিও বাটন ও নেভিগেশন স্টাইল */
+    .btn-sm {
+      padding: 8px 14px;
+      font-size: 0.88rem;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+    .practice-wrap {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .option {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .opt-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-align: left;
+      flex: 1;
+    }
+    .opt-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .opt-speak-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: transform 0.15s ease, background-color 0.2s;
+      flex-shrink: 0;
+    }
+    .opt-speak-btn:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      transform: scale(1.08);
+    }
+    .opt-speak-btn:active {
+      transform: scale(0.92);
+    }
+    .fb-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .fb-speak-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 5px 12px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      color: var(--text);
+      transition: transform 0.15s ease;
+    }
+    .fb-speak-btn:active {
+      transform: scale(0.94);
+    }
+    .review-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      margin-top: 10px;
+    }
+  </style>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('pk_theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div class="app">
+    <!-- ===== TOPBAR ===== -->
+    <header class="topbar">
+      <a href="index.html" class="btn btn-secondary btn-sm">← Home</a>
+
+      <div class="streak" id="streak" data-level="0" role="status" aria-live="polite">
+        <div class="fire-wrap" aria-hidden="true">
+          <span class="fire" id="streakFire">🔥</span>
+        </div>
+        <div class="streak-text">
+          <span><strong id="streakCount">0</strong> <span id="streakLabel">day streak</span></span>
+          <small id="streakNote">Practice today!</small>
+        </div>
+      </div>
+
+      <label class="theme-switch" title="Toggle dark mode">
+        <input type="checkbox" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="track">
+          <span class="icon sun" aria-hidden="true">☀️</span>
+          <span class="icon moon" aria-hidden="true">🌙</span>
+          <span class="thumb"></span>
+        </span>
+      </label>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <div class="hero" style="margin-bottom: 18px;">
+      <h1 class="app-title" style="font-size: clamp(1.6rem, 5vw, 2.2rem);">P. K PRACTICE</h1>
+      <p class="tagline">Practice Mode • <span lang="bn">কুইজ ও উচ্চারণ অনুশীলন</span></p>
+    </div>
+
+    <main>
+      <div class="status" id="status"></div>
+
+      <!-- ===== QUIZ PANEL ===== -->
+      <section class="panel active" id="quizQuestion">
+        <div class="card-lg practice-wrap">
+          <div class="quiz-head">
+            <span id="qCounter">Question 1 of 10</span>
+            <span class="score-pill" id="qScore">Score: 0</span>
+          </div>
+          <div class="progress" aria-hidden="true">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+
+          <p class="q-label">নিচের বাংলা অর্থটির সঠিক Phrasal Verb কোনটি?</p>
+          <p class="q-bn" id="qBengali" lang="bn"></p>
+
+          <div class="options" id="options" role="group" aria-label="Answer options"></div>
+
+          <div class="feedback" id="feedback" aria-live="polite" hidden></div>
+
+          <div class="quiz-actions">
+            <a href="index.html" class="btn btn-ghost" id="quitBtn">Quit</a>
+            <button class="btn btn-primary" id="nextBtn" hidden>Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== RESULT PANEL ===== -->
+      <section class="panel" id="quizResult"></section>
+    </main>
+
+    <footer class="footer">© <span id="year"></span> P. K PRACTICE</footer>
+  </div>
+
+  <script src="practice.js"></script>
+</body>
+</html>
