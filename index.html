@@ -2,6 +2,15 @@
 <html lang="en" data-theme="light">
 <head>
   
+    <script>
+    // ইউজারের নাম সেভ করা না থাকলে new_user.html-এ পাঠিয়ে দেবে
+    if (!localStorage.getItem('pk_username')) {
+      window.location.href = 'new_user.html';
+    }
+  </script>
+
+
+  
   
   <!-- PWA Manifest ও থিম কালার -->
 <link rel="manifest" href="manifest.json">
@@ -143,6 +152,9 @@
         <button id="popup-install-btn" style="background: #2563eb; color: #fff; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer; font-weight: bold; width: 100%;">Download App</button>
     </div>
 </div>
+
+<script src="send_data.js"></script>
+
 
 <!-- Popup JS লিঙ্ক করা -->
 <script src="popup.js"></script>

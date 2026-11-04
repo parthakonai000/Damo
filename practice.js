@@ -343,10 +343,14 @@
     else { q.index++; renderQuestion(); }
   }
 
-  function finishQuiz() {
+     function finishQuiz() {
     HAPTIC.finish();
     const streakRes = recordPractice();
     renderStreak(streakRes.changed);
+
+    // --- মোট কতগুলো প্র্যাকটিস করা হলো তা কাউন্ট করা ---
+    let totalPractices = parseInt(localStorage.getItem('pk_total_practices') || '0');
+    localStorage.setItem('pk_total_practices', totalPractices + 1);
 
     const answers = state.quiz.answers;
     const total = answers.length;
@@ -401,7 +405,13 @@
     root.append(el('div', { class: 'result-actions practice-wrap' }, [again, home]));
 
     showPanel('result');
+
+    // --- ডেটা গুগল শিটে পাঠানো ---
+    if (typeof syncProgressToCloud === 'function') {
+      syncProgressToCloud();
+    }
   }
+
 
   function init() {
     $('#year').textContent = new Date().getFullYear();

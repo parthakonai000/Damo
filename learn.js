@@ -445,8 +445,13 @@
     dom.cpFeedback.hidden = false;
     dom.cpNextBtn.hidden = false;
   }
+  
+  
+  
+  
+  
 
-  function finishCheckpoint() {
+    function finishCheckpoint() {
     HAPTIC.finish();
 
     const answers = state.quiz.answers;
@@ -511,7 +516,13 @@
 
     root.append(actions);
     showPanel('result');
+
+    // --- ডেটা গুগল শিটে পাঠানো ---
+    if (typeof syncProgressToCloud === 'function') {
+      syncProgressToCloud();
+    }
   }
+
 
   /* ==========================================================
      INIT

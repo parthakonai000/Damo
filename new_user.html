@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Welcome — P. K PRACTICE</title>
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ওয়েলকাম পেজের জন্য স্পেশাল কিছু ডিজাইন */
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: var(--bg);
+      margin: 0;
+      padding: 20px;
+    }
+    .welcome-card {
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      padding: 40px 30px;
+      background: var(--surface);
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-md);
+      animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    @keyframes popIn {
+      0% { opacity: 0; transform: scale(0.9) translateY(20px); }
+      100% { opacity: 1; transform: scale(1) translateY(0); }
+    }
+    .welcome-emoji {
+      font-size: 4rem;
+      margin-bottom: 10px;
+    }
+    .welcome-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .welcome-subtitle {
+      font-size: 1rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .name-input {
+      width: 100%;
+      padding: 14px 16px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      font-family: inherit;
+      border: 2px solid var(--border);
+      border-radius: 12px;
+      background: var(--surface-2);
+      color: var(--text);
+      text-align: center;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .name-input:focus {
+      border-color: var(--accent);
+      background: var(--surface);
+      box-shadow: 0 0 0 4px var(--accent-soft);
+    }
+    .btn-start {
+      width: 100%;
+      padding: 14px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      border-radius: 12px;
+    }
+    .error-msg {
+      color: var(--red-500);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-top: 8px;
+      display: none;
+    }
+  </style>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('pk_theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+
+  <div class="welcome-card">
+    <div class="welcome-emoji">👋</div>
+    <h1 class="welcome-title">P. K PRACTICE</h1>
+    <p class="welcome-subtitle" lang="bn">শুরু করার আগে তোমার নাম বলো</p>
+    
+    <form id="welcomeForm" class="input-group">
+      <input 
+        type="text" 
+        id="userNameInput" 
+        class="name-input" 
+        placeholder="Enter your name..." 
+        autocomplete="off" 
+        required
+      >
+      <div class="error-msg" id="errorMsg">দয়া করে তোমার নাম লেখো!</div>
+      
+      <button type="submit" class="btn btn-primary btn-start">Let's Start →</button>
+    </form>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // যদি আগে থেকেই নাম সেভ করা থাকে, তবে সরাসরি index.html-এ পাঠিয়ে দেবে
+      if (localStorage.getItem('pk_username')) {
+        window.location.href = 'index.html';
+        return;
+      }
+
+      const form = document.getElementById('welcomeForm');
+      const nameInput = document.getElementById('userNameInput');
+      const errorMsg = document.getElementById('errorMsg');
+
+      // ইনপুটে ফোকাস করা
+      nameInput.focus();
+
+      // ফর্ম সাবমিট হলে ডেটা সেভ করা
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        const userName = nameInput.value.trim();
+        
+        if (userName.length < 2) {
+          errorMsg.style.display = 'block';
+          nameInput.style.borderColor = 'var(--red-500)';
+          
+          // মোবাইল ভাইব্রেট করবে ভুল হলে
+          if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
+        } else {
+          errorMsg.style.display = 'none';
+          
+          // নাম লোকাল স্টোরেজে সেভ করা
+          localStorage.setItem('pk_username', userName);
+          
+          // সাকসেস ভাইব্রেশন
+          if (navigator.vibrate) navigator.vibrate(50);
+          
+          // সেভ হওয়ার পর ইনডেক্সে রিডাইরেক্ট করা
+          window.location.href = 'index.html';
+        }
+      });
+
+      // টাইপ করা শুরু করলে এরর মেসেজ লুকিয়ে ফেলা
+      nameInput.addEventListener('input', () => {
+        errorMsg.style.display = 'none';
+        nameInput.style.borderColor = '';
+      });
+    });
+  </script>
+</body>
+</html>

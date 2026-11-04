@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
+  
+    <script>
+    // ইউজারের নাম সেভ করা না থাকলে new_user.html-এ পাঠিয়ে দেবে
+    if (!localStorage.getItem('pk_username')) {
+      window.location.href = 'new_user.html';
+    }
+  </script>
+
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Learn Lessons — P. K PRACTICE</title>
@@ -157,6 +166,8 @@
 
     <footer class="footer">© <span id="year"></span> P. K PRACTICE</footer>
   </div>
+  <script src="send_data.js"></script>
+
 
   <script src="learn.js"></script>
 </body>
