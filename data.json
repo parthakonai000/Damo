@@ -736,5 +736,511 @@
     "bengaliMeaning": "পরিকল্পনা করা",
     "englishMeaning": "make a plan",
     "example": "The engineer laid out the plan of the new park."
+  },
+
+  {
+    "verb": "find out",
+    "bengaliMeaning": "খুঁজে বের করা",
+    "englishMeaning": "discover",
+    "example": "The police found out the real culprit."
+  },
+  {
+    "verb": "look out",
+    "bengaliMeaning": "সাবধান হওয়া",
+    "englishMeaning": "be careful",
+    "example": "Look out! A car is coming."
+  },
+  {
+    "verb": "look up",
+    "bengaliMeaning": "অভিধানে খুঁজে দেখা",
+    "englishMeaning": "search in a book",
+    "example": "Look up the word in the dictionary."
+  },
+  {
+    "verb": "look up to",
+    "bengaliMeaning": "শ্রদ্ধা করা",
+    "englishMeaning": "respect; admire",
+    "example": "Students look up to their teachers."
+  },
+  {
+    "verb": "look through",
+    "bengaliMeaning": "চোখ বুলিয়ে দেখা",
+    "englishMeaning": "examine quickly",
+    "example": "He looked through the papers before the meeting."
+  },
+  {
+    "verb": "keep up",
+    "bengaliMeaning": "বজায় রাখা",
+    "englishMeaning": "maintain",
+    "example": "Keep up your good habits."
+  },
+  {
+    "verb": "keep up with",
+    "bengaliMeaning": "তাল মিলিয়ে চলা",
+    "englishMeaning": "move at the same pace as",
+    "example": "It is hard to keep up with the changing world."
+  },
+  {
+    "verb": "keep off",
+    "bengaliMeaning": "দূরে থাকা",
+    "englishMeaning": "stay away from",
+    "example": "Keep off the grass."
+  },
+  {
+    "verb": "keep on",
+    "bengaliMeaning": "চালিয়ে যাওয়া",
+    "englishMeaning": "continue",
+    "example": "He kept on working despite the pain."
+  },
+  {
+    "verb": "keep back",
+    "bengaliMeaning": "লুকিয়ে রাখা / আটকে রাখা",
+    "englishMeaning": "withhold",
+    "example": "She kept back the truth from her parents."
+  },
+  {
+    "verb": "cut down",
+    "bengaliMeaning": "কমানো / কেটে ফেলা",
+    "englishMeaning": "reduce; fell",
+    "example": "You should cut down your expenses."
+  },
+  {
+    "verb": "cut off",
+    "bengaliMeaning": "বিচ্ছিন্ন করা",
+    "englishMeaning": "separate; disconnect",
+    "example": "The flood cut off the village from the town."
+  },
+  {
+    "verb": "cut out",
+    "bengaliMeaning": "কেটে বাদ দেওয়া",
+    "englishMeaning": "remove by cutting",
+    "example": "She cut out the picture from the magazine."
+  },
+  {
+    "verb": "catch up with",
+    "bengaliMeaning": "নাগাল ধরা",
+    "englishMeaning": "reach someone ahead",
+    "example": "He ran fast to catch up with his friends."
+  },
+  {
+    "verb": "get along with",
+    "bengaliMeaning": "মিলেমিশে চলা",
+    "englishMeaning": "have a good relationship with",
+    "example": "She gets along with all her classmates."
+  },
+  {
+    "verb": "get on",
+    "bengaliMeaning": "এগিয়ে চলা / উন্নতি করা",
+    "englishMeaning": "progress",
+    "example": "How are you getting on with your studies?"
+  },
+  {
+    "verb": "get through",
+    "bengaliMeaning": "উত্তীর্ণ হওয়া",
+    "englishMeaning": "pass",
+    "example": "He got through the examination with good marks."
+  },
+  {
+    "verb": "get rid of",
+    "bengaliMeaning": "মুক্তি পাওয়া",
+    "englishMeaning": "free oneself from",
+    "example": "We must get rid of bad habits."
+  },
+  {
+    "verb": "get back",
+    "bengaliMeaning": "ফিরে পাওয়া / ফিরে আসা",
+    "englishMeaning": "recover; return",
+    "example": "I got back my lost wallet."
+  },
+  {
+    "verb": "hold on",
+    "bengaliMeaning": "অপেক্ষা করা",
+    "englishMeaning": "wait",
+    "example": "Hold on a minute, I will be back."
+  },
+  {
+    "verb": "hold up",
+    "bengaliMeaning": "আটকে দেওয়া / দেরি করানো",
+    "englishMeaning": "delay; obstruct",
+    "example": "The traffic jam held us up for an hour."
+  },
+  {
+    "verb": "hold back",
+    "bengaliMeaning": "চেপে রাখা",
+    "englishMeaning": "restrain",
+    "example": "She could not hold back her tears."
+  },
+  {
+    "verb": "pick up",
+    "bengaliMeaning": "তুলে নেওয়া / শিখে ফেলা",
+    "englishMeaning": "lift; learn casually",
+    "example": "He picked up English very quickly."
+  },
+  {
+    "verb": "pick out",
+    "bengaliMeaning": "বেছে নেওয়া",
+    "englishMeaning": "select",
+    "example": "She picked out a nice dress for the party."
+  },
+  {
+    "verb": "put forward",
+    "bengaliMeaning": "প্রস্তাব দেওয়া",
+    "englishMeaning": "propose",
+    "example": "He put forward a new plan in the meeting."
+  },
+  {
+    "verb": "put away",
+    "bengaliMeaning": "সরিয়ে রাখা",
+    "englishMeaning": "keep aside",
+    "example": "Put away your books and go to sleep."
+  },
+  {
+    "verb": "run over",
+    "bengaliMeaning": "চাপা দেওয়া",
+    "englishMeaning": "knock down with a vehicle",
+    "example": "A truck ran over a stray dog."
+  },
+  {
+    "verb": "run into",
+    "bengaliMeaning": "হঠাৎ দেখা হওয়া",
+    "englishMeaning": "meet by chance",
+    "example": "I ran into my old teacher at the market."
+  },
+  {
+    "verb": "run through",
+    "bengaliMeaning": "তাড়াতাড়ি পড়ে নেওয়া",
+    "englishMeaning": "read quickly",
+    "example": "He ran through the lesson before the exam."
+  },
+  {
+    "verb": "run down",
+    "bengaliMeaning": "নিন্দা করা",
+    "englishMeaning": "criticise",
+    "example": "Don't run down others behind their back."
+  },
+  {
+    "verb": "see off",
+    "bengaliMeaning": "বিদায় জানানো",
+    "englishMeaning": "bid farewell",
+    "example": "We went to the station to see him off."
+  },
+  {
+    "verb": "see to",
+    "bengaliMeaning": "ব্যবস্থা করা / দেখভাল করা",
+    "englishMeaning": "attend to",
+    "example": "I will see to the arrangements for the function."
+  },
+  {
+    "verb": "send for",
+    "bengaliMeaning": "ডেকে পাঠানো",
+    "englishMeaning": "summon",
+    "example": "They sent for a doctor at once."
+  },
+  {
+    "verb": "show off",
+    "bengaliMeaning": "বড়াই করা",
+    "englishMeaning": "boast",
+    "example": "He likes to show off his wealth."
+  },
+  {
+    "verb": "show up",
+    "bengaliMeaning": "উপস্থিত হওয়া",
+    "englishMeaning": "appear",
+    "example": "He did not show up at the meeting."
+  },
+  {
+    "verb": "stand up for",
+    "bengaliMeaning": "সমর্থন করা",
+    "englishMeaning": "defend",
+    "example": "We should stand up for the weak."
+  },
+  {
+    "verb": "stand out",
+    "bengaliMeaning": "আলাদাভাবে চোখে পড়া",
+    "englishMeaning": "be prominent",
+    "example": "She stands out in the class for her talent."
+  },
+  {
+    "verb": "take part in",
+    "bengaliMeaning": "অংশগ্রহণ করা",
+    "englishMeaning": "participate",
+    "example": "Many students took part in the debate."
+  },
+  {
+    "verb": "take place",
+    "bengaliMeaning": "ঘটা / অনুষ্ঠিত হওয়া",
+    "englishMeaning": "happen",
+    "example": "The sports will take place next Monday."
+  },
+  {
+    "verb": "take care of",
+    "bengaliMeaning": "যত্ন নেওয়া",
+    "englishMeaning": "look after",
+    "example": "Take care of your health."
+  },
+  {
+    "verb": "take out",
+    "bengaliMeaning": "বের করা",
+    "englishMeaning": "remove",
+    "example": "He took out a pen from his pocket."
+  },
+  {
+    "verb": "take back",
+    "bengaliMeaning": "ফিরিয়ে নেওয়া",
+    "englishMeaning": "withdraw",
+    "example": "He took back his words."
+  },
+  {
+    "verb": "take pity on",
+    "bengaliMeaning": "দয়া করা",
+    "englishMeaning": "feel sympathy for",
+    "example": "She took pity on the poor beggar."
+  },
+  {
+    "verb": "turn over",
+    "bengaliMeaning": "উল্টানো",
+    "englishMeaning": "flip",
+    "example": "Turn over the page and read the next lesson."
+  },
+  {
+    "verb": "turn into",
+    "bengaliMeaning": "রূপান্তরিত হওয়া",
+    "englishMeaning": "become",
+    "example": "The caterpillar turned into a butterfly."
+  },
+  {
+    "verb": "turn back",
+    "bengaliMeaning": "ফিরে আসা",
+    "englishMeaning": "return",
+    "example": "We turned back because of the storm."
+  },
+  {
+    "verb": "wake up",
+    "bengaliMeaning": "ঘুম থেকে জাগা",
+    "englishMeaning": "stop sleeping",
+    "example": "I wake up at five every morning."
+  },
+  {
+    "verb": "wear out",
+    "bengaliMeaning": "জীর্ণ হওয়া / ক্লান্ত করা",
+    "englishMeaning": "become useless by use; exhaust",
+    "example": "My shoes have worn out."
+  },
+  {
+    "verb": "write down",
+    "bengaliMeaning": "লিখে রাখা",
+    "englishMeaning": "note",
+    "example": "Write down the address before you forget."
+  },
+  {
+    "verb": "write off",
+    "bengaliMeaning": "বাতিল করা / মকুব করা",
+    "englishMeaning": "cancel; cancel a debt",
+    "example": "The bank wrote off the old loan."
+  },
+  {
+    "verb": "throw away",
+    "bengaliMeaning": "ফেলে দেওয়া",
+    "englishMeaning": "discard",
+    "example": "Don't throw away useful things."
+  },
+  {
+    "verb": "fill in",
+    "bengaliMeaning": "পূরণ করা",
+    "englishMeaning": "complete (a form)",
+    "example": "Fill in the form with your details."
+  },
+  {
+    "verb": "hand in",
+    "bengaliMeaning": "জমা দেওয়া",
+    "englishMeaning": "submit",
+    "example": "Hand in your answer scripts now."
+  },
+  {
+    "verb": "hand over",
+    "bengaliMeaning": "হস্তান্তর করা",
+    "englishMeaning": "transfer",
+    "example": "He handed over the keys to the manager."
+  },
+  {
+    "verb": "hang up",
+    "bengaliMeaning": "ফোন কেটে দেওয়া / ঝুলিয়ে রাখা",
+    "englishMeaning": "end a call; hang",
+    "example": "She hung up the phone angrily."
+  },
+  {
+    "verb": "let down",
+    "bengaliMeaning": "হতাশ করা",
+    "englishMeaning": "disappoint",
+    "example": "Don't let down your parents."
+  },
+  {
+    "verb": "let off",
+    "bengaliMeaning": "ছেড়ে দেওয়া / ক্ষমা করা",
+    "englishMeaning": "pardon",
+    "example": "The teacher let him off with a warning."
+  },
+  {
+    "verb": "knock down",
+    "bengaliMeaning": "ধাক্কা মেরে ফেলে দেওয়া",
+    "englishMeaning": "hit and make fall",
+    "example": "A bike knocked down an old man."
+  },
+  {
+    "verb": "lay down",
+    "bengaliMeaning": "বিসর্জন দেওয়া / নিয়ম তৈরি করা",
+    "englishMeaning": "sacrifice; formulate",
+    "example": "Many freedom fighters laid down their lives for the country."
+  },
+  {
+    "verb": "leave out",
+    "bengaliMeaning": "বাদ দেওয়া",
+    "englishMeaning": "omit",
+    "example": "He left out two questions in the exam."
+  },
+  {
+    "verb": "live on",
+    "bengaliMeaning": "খেয়ে বেঁচে থাকা",
+    "englishMeaning": "feed on",
+    "example": "Many people in the village live on rice."
+  },
+  {
+    "verb": "live up to",
+    "bengaliMeaning": "আদর্শ অনুযায়ী চলা",
+    "englishMeaning": "be worthy of",
+    "example": "He lived up to his father's expectations."
+  },
+  {
+    "verb": "point out",
+    "bengaliMeaning": "নির্দেশ করা / দেখিয়ে দেওয়া",
+    "englishMeaning": "indicate",
+    "example": "The teacher pointed out my mistakes."
+  },
+  {
+    "verb": "rule out",
+    "bengaliMeaning": "বাতিল করা / সম্ভাবনা নাকচ করা",
+    "englishMeaning": "exclude",
+    "example": "The doctor ruled out any serious illness."
+  },
+  {
+    "verb": "sum up",
+    "bengaliMeaning": "সংক্ষেপে বলা",
+    "englishMeaning": "summarise",
+    "example": "He summed up the speech in a few words."
+  },
+  {
+    "verb": "try out",
+    "bengaliMeaning": "পরীক্ষা করে দেখা",
+    "englishMeaning": "test",
+    "example": "We tried out the new machine."
+  },
+  {
+    "verb": "wind up",
+    "bengaliMeaning": "সমাপ্ত করা",
+    "englishMeaning": "conclude",
+    "example": "The chairman wound up the meeting at six."
+  },
+  {
+    "verb": "come up with",
+    "bengaliMeaning": "উদ্ভাবন করা / মাথায় আসা",
+    "englishMeaning": "think of; produce",
+    "example": "She came up with a brilliant idea."
+  },
+  {
+    "verb": "come out",
+    "bengaliMeaning": "প্রকাশিত হওয়া",
+    "englishMeaning": "be published; become known",
+    "example": "The Madhyamik results will come out in June."
+  },
+  {
+    "verb": "drop in",
+    "bengaliMeaning": "হঠাৎ দেখা করতে যাওয়া",
+    "englishMeaning": "visit casually",
+    "example": "My uncle dropped in last evening."
+  },
+  {
+    "verb": "drop out",
+    "bengaliMeaning": "পড়াশোনা ছেড়ে দেওয়া",
+    "englishMeaning": "quit",
+    "example": "He dropped out of school due to poverty."
+  },
+  {
+    "verb": "fall back on",
+    "bengaliMeaning": "আশ্রয় নেওয়া",
+    "englishMeaning": "depend on in difficulty",
+    "example": "He fell back on his savings after losing his job."
+  },
+  {
+    "verb": "go off",
+    "bengaliMeaning": "বিস্ফোরিত হওয়া / নষ্ট হয়ে যাওয়া",
+    "englishMeaning": "explode; spoil",
+    "example": "The bomb went off with a loud noise."
+  },
+  {
+    "verb": "go out",
+    "bengaliMeaning": "বেরিয়ে যাওয়া / নিভে যাওয়া",
+    "englishMeaning": "leave; be extinguished",
+    "example": "The lamp went out suddenly."
+  },
+  {
+    "verb": "go ahead",
+    "bengaliMeaning": "এগিয়ে যাওয়া",
+    "englishMeaning": "proceed",
+    "example": "Go ahead with your work."
+  },
+  {
+    "verb": "grow up",
+    "bengaliMeaning": "বড় হওয়া",
+    "englishMeaning": "become an adult",
+    "example": "He grew up in a small village."
+  },
+  {
+    "verb": "join in",
+    "bengaliMeaning": "যোগ দেওয়া",
+    "englishMeaning": "participate",
+    "example": "Everyone joined in the singing."
+  },
+  {
+    "verb": "pay back",
+    "bengaliMeaning": "শোধ করা",
+    "englishMeaning": "repay",
+    "example": "I will pay back your money tomorrow."
+  },
+  {
+    "verb": "die out",
+    "bengaliMeaning": "বিলুপ্ত হওয়া",
+    "englishMeaning": "become extinct",
+    "example": "Many animals have died out due to deforestation."
+  },
+  {
+    "verb": "die down",
+    "bengaliMeaning": "কমে আসা",
+    "englishMeaning": "subside",
+    "example": "The noise died down after the teacher entered."
+  },
+  {
+    "verb": "end up",
+    "bengaliMeaning": "শেষ পর্যন্ত পৌঁছানো",
+    "englishMeaning": "finally become or reach",
+    "example": "He ended up in jail."
+  },
+  {
+    "verb": "do without",
+    "bengaliMeaning": "ছাড়া চালানো",
+    "englishMeaning": "manage without",
+    "example": "We cannot do without water."
+  },
+  {
+    "verb": "give back",
+    "bengaliMeaning": "ফিরিয়ে দেওয়া",
+    "englishMeaning": "return",
+    "example": "Give back my pen."
+  },
+  {
+    "verb": "bring in",
+    "bengaliMeaning": "প্রচলন করা / আয় করা",
+    "englishMeaning": "introduce; earn",
+    "example": "The government brought in a new law."
   }
 ]
+
